@@ -1,0 +1,2 @@
+!function(){function n(n){return String(n).padStart(2,"0")}(function(){var o=Date.now();setInterval((function(){var t=function(o){var t=n(Math.floor(o%864e5/36e5)),e=n(Math.floor(o%36e5/6e4)),r=n(Math.floor(o%6e4/1e3));return{hours:t,mins:e,secs:r}}(Date.now()-o),e=t.hours,r=t.mins,a=t.secs;console.log("".concat(e,":").concat(r,":").concat(a))}),1e3)})()}();
+//# sourceMappingURL=02-timer.a68f392c.js.map
